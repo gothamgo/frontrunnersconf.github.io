@@ -5,20 +5,16 @@ title: Frontrunners JS/Web Conference
 
 <style>
 	
-  #container {
-    width:100%;
-    text-align:center;
+  speaker div.speaker {
+    display: flex;
   }
-  speaker div.align-left {
+
+  speaker div.speaker-photo {
     float:left;
     width:100px;
   }
-  speaker div.align-center {
-    display: inline-block;
-    margin:0 auto;
-    width:100px;
-  }
-  speaker div.align-right {
+
+  speaker div.speaker-details {
     float:right;
     width:100px;
   }
@@ -39,7 +35,7 @@ title: Frontrunners JS/Web Conference
   }
 	
   img.speaker-social {
-    background-color: brown;
+    background-color: grey;
   }
 	
   p.speaker-name {
@@ -67,19 +63,23 @@ title: Frontrunners JS/Web Conference
     <div class="speaker">
       <h3 class="talk-time">9:00 - 9:45</h3>
 											
-      <div class="align-left">
-        <p class="speaker-image"><span style="text-decoration: underline;"><img loading="lazy" class="wp-image-5200 alignleft" src="{{site.url}}/images/cat10.png" alt="" width="121" height="121" /></span></p>
+      <div class="speaker-photo">
+        <img class="speaker-image" src="{{site.url}}/images/cat10.png" alt="" width="150" height="150"/>
         <p class="speaker-social">@turpis</p>
       </div>
 
-      <div class="align-right">
+      <div class="speaker-details">
         <p class="talk-title">Bibendum at Varius Vel Pharetra Vel Turpis.</p>
 
         <p class="talk-description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Bibendum at varius vel pharetra vel turpis. 
-          Enim eu turpis egestas pretium aenean pharetra magna ac placerat. 
-          Augue mauris augue neque gravida in fermentum et sollicitudin. 
+          Urna neque viverra justo nec. 
+          Id cursus metus aliquam eleifend mi in nulla. 
+          Blandit cursus risus at ultrices mi tempus imperdiet. 
+          Id porta nibh venenatis cras sed felis eget velit aliquet. 
+          Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. 
+          Ut porttitor leo a diam sollicitudin tempor id eu.
+        </p>
+        <p class="talk-description">
           At tempor commodo ullamcorper a lacus vestibulum sed. 
           Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. 
           Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui. 
@@ -88,12 +88,10 @@ title: Frontrunners JS/Web Conference
         <p class="speaker-name">Lorem Ipsum</span></p>
 
         <p class="speaker-bio">
-          Urna neque viverra justo nec. 
-          Id cursus metus aliquam eleifend mi in nulla. 
-          Blandit cursus risus at ultrices mi tempus imperdiet. 
-          Id porta nibh venenatis cras sed felis eget velit aliquet. 
-          Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. 
-          Ut porttitor leo a diam sollicitudin tempor id eu.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Bibendum at varius vel pharetra vel turpis. 
+          Enim eu turpis egestas pretium aenean pharetra magna ac placerat. 
+          Augue mauris augue neque gravida in fermentum et sollicitudin. 
         </p>
       </div>
   
