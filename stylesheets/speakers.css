@@ -1,0 +1,40 @@
+  div.speaker {
+    display: flex;
+  }
+  div.speaker-photo {
+    padding: 30px 0px;
+  }
+  img.speaker-image {
+  }	
+  div.speaker-details {
+    padding: 25px;
+  }
+  div.speaker p {
+    color: #28282B;
+  }
+  div.speaker h1 {
+    color: #28282B;
+  }
+  div.speaker h3 {
+    color: #28282B;
+  }
+  p.speaker-name {
+  }	
+  p.speaker-bio {
+  }
+
+  p.talk-time {
+    background-color: red;
+  }									
+  p.talk-title {
+    background-color: yellow;
+  }
+  img.speaker-social {
+    background-color: grey;
+  }	
+  p.talk-description {
+    background-color: orange;
+  }	
+  p.talk-title {
+    background-color: green;
+  }
