@@ -23,7 +23,7 @@
   p.speaker-bio {
   }
 
-  p.talk-time {
+  h3.talk-time {
     background-color: red;
   }									
   p.talk-title {
