@@ -1,13 +1,36 @@
 <style>
   header {
-    display: flex;
+    background: #011627 none repeat scroll 0 0;
+    padding: 0.25rem 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #333333;
   }
-  header.nav {
+  header nav {
+    align-items: center;
+    background-color: transparent;
+    border: medium none;
     display: flex;
-    background-color: black;
+    flex-direction: row;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0 1.25rem;
+    position: static;
+    text-align: center;
   }
-  ul {
-    color: white;
+  header nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;  
+  }
+  header nav ul li {
+    border-bottom: 3px solid transparent;
+    display: inline;
+    padding: 4rem 0.6rem 4rem;
+    vertical-align: middle;  
   }
 </style>
 
