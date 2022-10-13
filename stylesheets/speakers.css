@@ -22,19 +22,8 @@
   }	
   p.speaker-bio {
   }
-
-  h3.talk-time {
-    background-color: red;
-  }									
-  p.talk-title {
-    background-color: yellow;
+  h3.talk-title {
   }
-  img.speaker-social {
-    background-color: grey;
-  }	
   p.talk-description {
-    background-color: orange;
-  }	
-  p.talk-title {
-    background-color: green;
   }
+
