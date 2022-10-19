@@ -33,6 +33,8 @@
         font-size: 18px;
         text-align: left;
       }      
+      div.content-wrapper {
+      }
       div.content {
         background-color: AliceBlue;
         padding: 1em;
