@@ -71,4 +71,7 @@
         background-color: Grey;
         margin: 0 auto;
         color: WhiteSmoke;
+        border-style: solid;
+        border-width: 1px 0px 0px 0px;
+        border-color: black;
       }
