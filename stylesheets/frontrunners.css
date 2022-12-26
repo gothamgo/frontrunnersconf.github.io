@@ -5,7 +5,8 @@
         font-family: 'Work Sans', sans-serif;
       }
       body {
-        background: Grey;
+        background-color: Grey;
+        color: WhiteSmoke;
         font-size: 18px;
       }
       div.content-wrapper {
