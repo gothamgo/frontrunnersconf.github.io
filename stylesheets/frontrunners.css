@@ -11,6 +11,7 @@
       }
       div.content-wrapper {
         background-color: AliceBlue;
+        color: #28282B;
       }
       div.content {
         padding: 40px 15px 5px 15px;
@@ -19,7 +20,6 @@
         color: WhiteSmoke;
       }
       h1 {
-        color: #28282B;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         font-family: 'Montserrat', sans-serif;
@@ -27,14 +27,12 @@
         text-align: center;
       }
       h2 {
-        color: #28282B;
         margin-top: 1em;
         margin-bottom: 1em;
         font-size: 22px;
         text-align: left;
       }
       p {
-        color: #28282B;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         font-size: 18px;
